@@ -30,6 +30,13 @@ public class CountSingleValuedSubTree {
         count ++;
         return true;
     }
+    static int countSingleValuedSubTree(Node root){
+
+        count =0;
+        rec(root);
+        return count;
+
+    }
 
 
 
